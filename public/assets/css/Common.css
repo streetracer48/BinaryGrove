@@ -1,0 +1,541 @@
+
+/*
+Project Name: BinaryGrove OY;
+Author Name: BinarGrove OY;
+Date:16-8-2023;
+*/
+
+/* Common Css Start */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.button-style{
+    border-radius: 25px!important;
+    letter-spacing: 0px!important;
+    font-size: 16px!important;
+    font-weight: 700!important;
+    background-color: #dfefdd!important;
+    color: #0d6efd!important;
+    padding: 10px 40px!important;
+    border: 1px solid #dfefdd!important;
+}
+.button-style:hover{
+    color: #ffffff!important;
+    background-color: #0d6efd!important;
+}
+.services-button .button-style:hover{
+    color: #0d6efd!important;
+    background-color: #fff!important;
+}
+
+/* Common Css Start */
+
+/* Header Css Start */
+.header{
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    background: #fff;
+    top: 0px;
+}
+.logo{
+    width: 200px;
+    padding: 24px 0px;
+}
+.main-manu{
+    padding: 30px;
+}
+.nav-item .nav-link {
+    font-weight: 600;
+    color: #3c3c36;
+}
+/* Header Css End */
+
+/* Scale Css Start */
+.scale{
+    background-color: #f5f7f5;
+}
+.scale .scale-left-section {
+    width: 50%;
+    float: left;
+    padding: 30px 100px 60px 0px;
+}
+
+.scale .scale-left-section .scale-header-text{
+    font-weight: 700;
+    font-size: 64px;
+    color: #393c44;
+    line-height: 70px;
+}
+.scale .scale-left-section .scale-center-text{
+    color: #5e6370;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 20px 0px;
+}
+
+.scale .scale-right-section {
+    width: 50%;
+    float: left;
+}
+.scale .scale-right-section .scale-right-img .img {
+    width: 100%;
+    height: 500px;
+}
+/* Scale Css End */
+
+/* pwrteams Css Start */
+.pwrteams{
+    background-color: #fff;
+    padding: 40px 0px;
+}
+
+.pwrteams .pwrteams-left-section {
+    width: 50%;
+    float: left;
+}
+.pwrteams .pwrteams-left-section .pwrteams-left-img {
+    padding: 40px 40px 0px 0px;
+}
+.pwrteams .pwrteams-left-section .pwrteams-left-img .img {
+    width: 100%;
+    /* height: 500px; */
+    border-radius: 25px;
+}
+.pwrteams .pwrteams-right-section {
+    width: 50%;
+    float: left;
+    padding: 30px 0px 30px 0px;
+}
+
+.pwrteams .pwrteams-right-section .pwrteams-header-text{
+    color: #393c44;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.pwrteams .pwrteams-right-section .pwrteams-center-text{
+    color: #393c44;
+    padding: 10px 120px 20px 0px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+
+/* pwrteams Css End */
+
+/* Expert Teams Css Start */
+.expert-teams{
+    width: 100%;
+    padding: 40px 0px;
+}
+
+.expert-teams .expert-header-text .expert-header-team{
+    color: #393c44;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.expert-teams .expert-header-text .expert-text-header-text-help{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+    color: #393c44;
+}
+.expert-teams .export-team-blog-section{
+    padding: 20px 0px;
+}
+.expert-teams .export-team-blog-section .team-blog-left{
+    width: calc(calc(100% - 60px) / 3);
+    margin: 10px;
+    padding: 48px 32px;
+    background-color: #f5f7f5;
+    float: left;
+}
+.expert-teams .export-team-blog-section .team-blog-left .team-blog-img{
+    width: auto;
+}
+.expert-teams .export-team-blog-section .team-blog-left .team-blog-header{
+    font-size: 16px;
+    color: #666;
+    line-height: 17px;
+    padding: 20px 0px 0px;
+    font-weight: 700;
+}
+.expert-teams .export-team-blog-section .team-blog-left .team-blog-des{
+    margin: 0px;
+    font-size: 14px;
+    color: #666;
+    line-height: 17px;
+}
+/* Expert Teams Css End */
+
+/* services Css Start */
+
+.services{
+    width: 100%;
+    padding: 40px 0px;
+}
+
+.services .services-header-text .services-header-team{
+    color: #393c44;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.services .services-header-text .services-header-text{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+    color: #393c44;
+    padding-bottom: 20px;
+}
+.services .services-dadicated-team{
+    width: 100%;
+    max-height: 100%;
+}
+
+.services .services-dadicated-team .services-left-section {
+    width: 50%;
+    float: left;
+    padding: 30px 50px 137px 45px;
+    background-color: #0d6efd;
+    border-radius: 25px 0px 0px 25px;
+    height: 100%;
+}
+
+.services .services-dadicated-team .services-left-section .services-header-text{
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+}
+.services .services-dadicated-team .services-left-section .services-center-text{
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 20px 0px;
+    letter-spacing: 1px;
+}
+
+.services .services-dadicated-team .services-right-section {
+    width: 50%;
+    float: left;
+}
+.services .services-dadicated-team .services-right-section .services-right-img .img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 25px 25px 0px;
+}
+.services .services-lab{
+    background-color: #F5F7F5;
+    width: 100%;
+
+}
+
+.services .services-lab .lab-left-section {
+    width: 50%;
+    float: left;
+    padding: 30px 45px 53px 45px;
+    background-color: #f5f5f5;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.services .services-lab .lab-left-section .lab-header-text{
+    color: #393c44;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+}
+.services .services-lab .lab-left-section .lab-center-text{
+    color: #5e6370;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 20px 0px;
+}
+.services .services-lab .lab-right-section {
+    width: 50%;
+    float: left;
+    padding: 30px 45px 53px 45px;
+    background-color: #f5f5f5;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.services .services-lab .lab-right-section .lab-header-text{
+    color: #393c44;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+}
+.services .services-lab .lab-right-section .lab-center-text{
+    color: #5e6370;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 20px 0px;
+}
+/* services Teams Css End */
+
+/* work Css Start */
+.work{
+    width: 100%;
+    padding: 40px 0px;
+}
+
+.work .work-header-text .work-header-team{
+    color: #393c44;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.work .work-header-text .work-header-text-help{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+    color: #393c44;
+}
+.work .work-blog-section{
+    padding: 20px 0px;
+}
+.work .work-blog-section .team-blog-left{
+    width: calc(calc(100% - 60px) / 3);
+    margin: 10px;
+    padding: 48px 32px 50px 32px;
+    background-color: #f5f7f5;
+    float: left;
+    max-height: 255px;
+}
+.work .work-blog-section .team-blog-left .team-blog-img{
+    width: auto;
+}
+.work .work-blog-section .team-blog-left .team-blog-header{
+    font-size: 16px;
+    color: #666;
+    line-height: 17px;
+    padding: 20px 0px 0px;
+    font-weight: 700;
+}
+.work .work-blog-section .team-blog-left .team-blog-des{
+    margin: 0px;
+    font-size: 14px;
+    color: #666;
+    line-height: 17px;
+}
+/* work Teams Css End */
+
+/* awards Css Start */
+.awards{
+    width: 100%;
+    padding: 40px 0px;
+}
+
+.awards .awards-header-text .awards-header-team{
+    color: #393c44;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.awards .awards-header-text .awards-header-text-help{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+    color: #393c44;
+}
+.awards .awards-blog-section{
+    padding: 20px 0px;
+    height: 150px;
+}
+.awards .awards-button{
+    padding: 20px 0px;
+    text-align: center;
+}
+.awards .awards-blog-section .awards-blog-left{
+    width: calc(calc(100% - 60px) / 3);
+    margin: 10px;
+    float: left;
+    text-align: center;
+
+}
+.awards .awards-blog-section .awards-blog-left .awards-blog-des{
+    margin: 0px;
+    font-size: 16px;
+    color: #666;
+    line-height: 24px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.awards .awards-blog-section .awards-blog-left .awards-learn{
+    margin: 0px;
+    font-size: 16px;
+    color: #0d6efd;
+    line-height: 24px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    text-decoration: none;
+}
+/* awards Teams Css End */
+
+/* message Css Start */
+.message{
+    background-image: url('../../assets/image/msg-bg.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    padding: 70px 0px;
+}
+.message .message-left-section{
+    width: 60%;
+    max-width: 100%;
+    background-color: #fff;
+    float: left;
+    padding: 50px 40px;
+    border-radius: 25px 0px 0px 25px;
+}
+.message .message-left-section .message-left-header{
+    font-weight: 600;
+    font-size: 18px;
+    color: #0d6efd;
+    line-height: 17px;
+}
+.message .message-left-section .message-form .name{
+    border: 1px solid #d8dcde;
+    width: 100%;
+    color: #999;
+    font-size: 14px;
+    padding: 16px;
+}
+.message .message-left-section .message-form .name:hover,
+.message .message-left-section .message-form .name:focus,
+.message .message-left-section .message-form .name:active{
+    border: 1px solid #0d6efd;
+}
+.message .message-left-section .message-form .email{
+    border: 1px solid #d8dcde;
+    width: 100%;
+    color: #999;
+    font-size: 14px;
+    padding: 16px;
+    margin: 20px 0px;
+}
+.message .message-left-section .message-form .email:hover,
+.message .message-left-section .message-form .email:focus,
+.message .message-left-section .message-form .email:active{
+    border: 1px solid #0d6efd;
+}
+.message .message-left-section .message-form .des{
+    border: 1px solid #d8dcde;
+    width: 100%;
+    color: #999;
+    font-size: 14px;
+    padding: 16px;
+}
+.message .message-left-section .message-form .des:hover,
+.message .message-left-section .message-form .des:focus,
+.message .message-left-section .message-form .des:active{
+    border: 1px solid #0d6efd;
+}
+.message .message-left-section .message-form .message-button{
+    text-align: right;
+    padding-top: 10px;
+}
+.message .message-right-section{
+    width: 40%;
+    max-width: 100%;
+    height: 100%;
+    background-color: #0d6efd;
+    float: left;
+    border-radius: 0px 25px 25px 0px;
+}
+.message .message-right-section .message-right-section-text{
+    padding: 50px;
+}
+.message .message-right-section .message-right-section-text .message-right-section-header-text{
+    font-size: 18px; 
+    font-weight: 700;
+    color: #fff;
+}
+.message .message-right-section .message-right-section-text .message-right-section-header-des{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.message .message-right-section .message-right-section-text .message-right-section-email{
+    font-size: 18px; 
+    font-weight: 700;
+    color: #fff;
+}
+.message .message-right-section .message-right-section-text .message-right-section-email-des{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+/* message Teams Css End */
+
+/* Footer Css Start */
+.footer{
+    background-color: #414150;
+}
+.footer-head-padding{
+    padding: 40px 0px;
+}
+.footer-left-section{
+    color: #fff;
+    padding: 30px 0px;
+}
+.footer-left-section-logo{
+    width: 200px;
+    padding: 0px 0px 20px 0px;
+}
+
+.footer-mid-section{
+    color: #fff;
+    padding: 30px 120px;
+}
+.footer-mid-section-text{
+    padding: 25px 0px 0px 0px;
+}
+.footer-mid-section a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer-right-section{
+    color: #fff;
+    padding: 30px 50px;
+}
+.footer-right-section-icon{
+    padding: 25px 0px 0px 0px;
+}
+.footer-right-section-icon .icon-css{
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 0px 15px 0px 0px;
+}
+.footer-bottom{
+    border-top: 1px solid #fff;
+}
+.footer-bottom-text{
+    padding: 20px 0px 10px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+.footer-bottom-text-logo{
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer-bottom-text-logo:hover{
+    
+}
+/* Footer Css End */
