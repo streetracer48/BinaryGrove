@@ -18,8 +18,10 @@ body{
     font-weight: 700!important;
     background-color: #dfefdd!important;
     color: #0d6efd!important;
-    padding: 10px 40px!important;
+    padding: 10px 40px 12px!important;
     border: 1px solid #dfefdd!important;
+    text-decoration: none;
+    
 }
 .button-style:hover{
     color: #ffffff!important;
@@ -202,7 +204,7 @@ body{
 .services .services-dadicated-team .services-left-section {
     width: 50%;
     float: left;
-    padding: 30px 50px 137px 45px;
+    padding: 30px 50px 159px 45px;
     background-color: #0d6efd;
     border-radius: 25px 0px 0px 25px;
     height: 100%;
@@ -415,6 +417,7 @@ body{
 .message .message-left-section .message-form .name:focus,
 .message .message-left-section .message-form .name:active{
     border: 1px solid #0d6efd;
+    outline: 0px;
 }
 .message .message-left-section .message-form .email{
     border: 1px solid #d8dcde;
@@ -422,12 +425,13 @@ body{
     color: #999;
     font-size: 14px;
     padding: 16px;
-    margin: 20px 0px;
+    /* margin: 20px 0px; */
 }
 .message .message-left-section .message-form .email:hover,
 .message .message-left-section .message-form .email:focus,
 .message .message-left-section .message-form .email:active{
     border: 1px solid #0d6efd;
+    outline: 0px;
 }
 .message .message-left-section .message-form .des{
     border: 1px solid #d8dcde;
@@ -440,10 +444,18 @@ body{
 .message .message-left-section .message-form .des:focus,
 .message .message-left-section .message-form .des:active{
     border: 1px solid #0d6efd;
+    outline: 0px;
+}
+.message .message-left-section .message-form .input-padding{
+    margin-bottom: 20px;
 }
 .message .message-left-section .message-form .message-button{
     text-align: right;
-    padding-top: 10px;
+    /* padding-top: 10px; */
+}
+.message .message-left-section .message-form .error-handler{
+    color: red;
+    font-size: 14px;
 }
 .message .message-right-section{
     width: 40%;

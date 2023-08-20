@@ -1,5 +1,7 @@
 import React from 'react'
+import Form from './Form'
 import { Button } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 function Contain() {
   return (
@@ -18,7 +20,7 @@ function Contain() {
                         </p>
                       </div>
                       <div className='scale-button'>
-                        <Button className='button-style'>BUILD YOUR TEAM</Button>
+                        <Link to="#" className='button-style'>BUILD YOUR TEAM</Link>
                       </div>
                     </div>
                     <div className="scale-right-section">
@@ -51,7 +53,7 @@ function Contain() {
                       </p>
                     </div>
                     <div className='pwrteams-button'>
-                      <Button className='button-style'>ABOUT US</Button>
+                      <Link to="#" className='button-style'>ABOUT US</Link>
                     </div>
                   </div>
                 </div>
@@ -130,7 +132,7 @@ function Contain() {
                         </p>
                       </div>
                       <div className='services-button'>
-                        <Button className='button-style'>LEARN MORE</Button>
+                        <Link to="#" className='button-style'>LEARN MORE</Link>
                       </div>
                     </div>
                     <div className="services-right-section">
@@ -151,7 +153,7 @@ function Contain() {
                         </p>
                       </div>
                       <div className='lab-button'>
-                        <Button className='button-style'>LEARN MORE</Button>
+                        <Link to="#" className='button-style'>LEARN MORE</Link>
                       </div>
                     </div>
                     <div className="lab-right-section">
@@ -164,7 +166,7 @@ function Contain() {
                         </p>
                       </div>
                       <div className='lab-button'>
-                        <Button className='button-style'>LEARN MORE</Button>
+                        <Link to="#" className='button-style'>LEARN MORE</Link>
                       </div>
                     </div>
                     <div className="clr"></div>
@@ -174,6 +176,7 @@ function Contain() {
             </div>
           </section>
 
+          
           <section className='work'>
             <div className="row">
               <div className="col-md-1"></div>
@@ -250,7 +253,7 @@ function Contain() {
                     <div className="clr"></div>
                   </div>
                   <div className='awards-button'>
-                    <Button className='button-style'>ALL AWARDS</Button>
+                    <Link to="#" className='button-style'>ALL AWARDS</Link>
                     <div className="clr"></div>
                   </div>
                   
@@ -259,35 +262,7 @@ function Contain() {
             </div>
           </section>
 
-          <section className='message'>
-              <div className='row'>
-                <div className="col-md-1"></div>
-                <div className="col-md-10">
-                  <div className="message-left-section">
-                      <p className='message-left-header'>Send us a message</p>
-                      <form action="" className='message-form'>
-                        <input name='name' type='text' placeholder='Name' className='name' />
-                        <input name='email' type='email' placeholder='Email' className='email' />
-                        <textarea name='message'  placeholder='Message' className='des' rows="4" cols="50"></textarea>
-                        <div className='message-button'>
-                          <Button className='button-style'>SEND MESSAGE</Button>
-                        </div>
-                      </form>
-                  </div>
-                  <div className="message-right-section">
-                   
-                    <div className="message-right-section-text">
-                      <p><span className="message-right-section-header-text" >How we can help you</span></p>
-                      <p><span className="message-right-section-header-des" >Simply fill in a few details in our contact form or get in touch with us by email, and one of our experts will contact you shortly.</span></p>
-                      <p><span className="message-right-section-email">info@binarygroveoy.com</span></p>
-                      <p><span className="message-right-section-email-des">This could be the beginning of a wonderful collaboration and the easiest way to acquire a highly-experienced team</span></p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-1"></div>
-              </div>
-              <div className="clr"></div>
-          </section>
+          <Form />
         </>
   )
 }

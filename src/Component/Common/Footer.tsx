@@ -11,7 +11,7 @@ function Footer() {
 
                     <div className="col-md-4">
                         <div className='footer-left-section'>
-                            <img src="assets/image/BinaryGrove-logo.png" alt="" className='footer-left-section-logo'/>
+                            <img src="assets/image/BinaryGrove-logo-White.png" alt="" className='footer-left-section-logo'/>
                             <p className='footer-left-section-text'>
                                 <span >
                                     <strong>BINARYGROVE OY</strong> is a software development company based in Finland. Work worldwide qualityful products with any types of Web applications. Team is prepared with some highly efficient consultant, Developers designers.
